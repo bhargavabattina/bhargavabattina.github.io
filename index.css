@@ -28,6 +28,16 @@ body {
     vertical-align: middle;
 }
 
+body {
+    margin: 0 30px; /* You can adjust the value according to your preference */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px; /* Adjust the maximum width of your content */
+    margin: 0 auto; /* Center the content within the container */
+}
 
 
 /* Genral */
@@ -183,6 +193,11 @@ li a:hover {
     display: flex; /* Enables flexbox layout */
     justify-content: center; /* Centers the image horizontally */
     align-items: center; /* Centers the image vertically */
+}
+
+.images video {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
 }
 
 .images img {
